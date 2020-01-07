@@ -1,0 +1,401 @@
+/*Global CSS Start*/
+*{
+margin: 0;
+padding: 0;
+font-family: 'Source Sans Pro', sans-serif;
+} 
+.container
+{
+width: 1140px;
+margin: 0 auto;
+
+}
+.container-fluid{
+
+	width: 100%;
+}
+
+.col-1
+{
+width: 8.33%;
+float: left;
+}
+
+.col-2
+{
+	width: 16.66%;
+	float: left;
+}
+
+.col-3
+{
+	width: 25%;
+	float:left;
+}
+
+.col-4{
+	width: 33.33%;
+	float: left;
+
+}
+
+.col-5{
+	width: 41.66%;
+	float:left;
+}
+
+.col-6{
+	width:50%;
+	float: left;
+}
+
+.col-7{
+	width: 58.33%;
+	float: left;
+}
+
+.col-8{
+	width: 66.66%;
+	float:left;
+
+}
+
+.col-9{
+	width: 75%;
+	float: left;
+}
+
+.col-10
+{
+   width: 83.33%;
+   float: left;
+}
+
+.col-11{
+   width: 91.66%;
+   float: left;	
+}
+
+.col-12{
+   width: 100%;
+   float: left;	
+}
+
+.row
+{
+	width: 100%;
+}
+
+
+.text-center{
+	text-align: center;
+}
+section
+{
+
+	float: left;
+	width: 100%;
+	padding: 80px 0;
+}
+
+.blue{
+
+	color: #008ed6;
+}
+.img-fluid{
+	width: 100%;
+}
+
+.highlight{
+
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-size: 13px;
+	font-weight: 600;
+}
+h2{
+
+	font-size: 36px;
+	font-weight: 600;
+}
+
+ul li{
+
+	list-style: none;
+}
+
+.text-white{
+	color: #fff;
+}
+
+/*Global CSS END*/
+
+/*Banner Section CSS*/
+
+.banner{
+    height: 640px;
+    background: url(../image/banner-bg.png);
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+}
+.banner .logo
+{
+
+	margin-top: 30px;
+
+}
+.banner .navbar{}
+
+
+.banner .navbar .nav-menu{
+    float: right;
+    margin: 20px 0;
+}
+.banner .navbar .nav-menu .nav-item{
+	position: relative;
+    list-style: none;
+    display: inline-block;
+    padding: 10px 15px;
+    margin: 0 5px;
+}
+.banner .navbar .nav-menu .nav-item .nav-link{
+    text-decoration: none;
+    color: #fffefe;
+}
+.banner .navbar .nav-menu .nav-item::after
+{
+	content: "";
+    position: absolute;
+    background: #008ed6;
+    height: 2px;
+    width: 0;
+    left: 0;
+    bottom: 0;
+    transition: 0.5s linear;
+}   
+
+.banner .navbar .nav-menu .nav-item::before{
+
+	content: "";
+    position: absolute;
+    background: #008ed6;
+    height: 2px;
+    width: 0;
+    right: 0;
+    bottom: 0;
+    transition: 0.5s linear;
+ 
+}
+
+.banner .navbar .nav-menu .nav-item:hover::after{
+ width: 50%;
+}
+
+.banner .navbar .nav-menu .nav-item:hover::before{
+  width: 50%;
+}
+
+.banner .hero-area{
+
+	margin-top: 62px;
+}
+
+.banner .hero-area h6
+{
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-bottom: 34px;
+}
+.banner .hero-area h1{
+    color: #fff;
+    font-size: 50px;
+    margin-bottom: 30px;
+
+}
+.banner .hero-area p
+{
+color: #89898a;
+line-height: 1.6;
+font-size: 18px;
+margin-bottom: 50px;}
+
+.banner .hero-area .btn{
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    text-transform: uppercase;
+    padding: 20px 30px;
+    border-radius: 5px;
+    margin-right: 20px;
+    font-weight: 700;
+    font-size: 14px;
+
+}
+.banner .hero-area .btn-cta
+{
+background: #008ed6;
+border: 1px solid #008ed6;
+letter-spacing: 1.5px;
+
+
+}
+.banner .hero-area .btn-ghost{
+    border: 1px solid #454449;
+    letter-spacing: 1.5px;
+}
+.banner .hero-area .btn-cta:hover
+{
+	background:#89898a;
+	border: 1px solid #89898a;
+	transition: 0.5s linear;
+}
+
+.banner .hero-area .btn-ghost:hover
+{
+
+	background:#89898a;
+	transition: 0.5s linear;
+}
+ /*#1573a2   #008ed6*/
+
+.banner .mockup{
+    width: 75%;
+    margin: 0 auto;
+    display: block;
+    margin-top: 40px;
+    margin-right: 40px;
+
+}
+
+/*Feature Scetion CSS*/
+
+.feature{}
+.feature .feature-box{
+	margin-top: 60px;
+}
+.feature .feature-box .box{
+
+	margin: 0 10px;
+	border-radius: 3px;
+	padding: 30px 0;
+	box-shadow: 0 0 1px 1px rgba(0,0,0,0.2);
+}
+.feature .feature-box .box .feature-img{
+
+	width: 60px;
+	height: 60px;
+	border: 1px solid #999;
+	margin: 0 auto;
+	text-align: center;
+	line-height: 80px;
+	border-radius: 50% ;
+	margin-bottom: 30px;
+
+}
+.feature .feature-box .box h3{
+
+	font-size: 28px;
+	margin-bottom: 20px;
+
+}
+.feature .feature-box .box p{
+
+	line-height: 1.6;
+	color: #999;
+	padding: 0 12%;
+}
+
+
+/*About Section CSS*/
+
+.about{
+
+	border-top: 1px solid #ededed;
+}
+
+.right-feature{
+	margin-top: 25%;
+}
+.right-feature h6{}
+.right-feature h2{}
+.right-feature p{
+	color: #999;
+	line-height:1.6;
+	font-size: 18px;
+	margin-top: 40px;
+	margin-bottom: 30px;
+}
+.about-feature li{
+	line-height: 1.8;
+	color: #1b1b1b;
+	font-size: 18px;
+
+}
+.about-feature li img{
+
+	margin-right: 10px;
+	display: inline-block;
+	width: 10px;
+
+}
+
+/*Aboutpart CSS*/
+
+.aboutpart{
+
+	background: #f2f2f2;
+}
+
+/*Review Scetion CSS*/
+.review{
+    background: url(../image/review-bg.png);
+	background-size: cover;
+	background-position: center;
+}
+.mycarousel{
+
+	margin-top: 60px;
+}
+.item{
+	color: #fff;
+}
+.item h5{
+	font-size: 20px;
+	margin-left: 10px;
+}
+.item h6{
+	font-size: 16px;
+	margin-left: 10px;
+	font-weight: 300;
+}
+.item p{ 
+	font-size: 20px;
+	font-style: italic;
+	margin-bottom: 20px;
+
+
+}
+
+.owl-dots{
+
+	margin-top: 30px !important;
+}
+.owl-carousel .owl-dots.disabled{
+
+	display: block !important;
+}
+.owl-theme .owl-dots .owl-dot.active span{
+
+	background: #008ed6;
+	width: 30px;
+
+}
+
+/*Map Section CSS*/
+
+.map{
+
+	padding: 0 !important;
+}
